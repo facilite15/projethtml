@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="burlywood">
+    <header>
+        <h1 align="center">GOMYCODE Dakar</h1>
+        <nav>
+            <hgroup >
+                <a href="#">ACCUEIL</a>
+                <a href="#">A PROPOS</a>
+                <a href="#">TRAVAIL</a>
+                <a href="#">CV</a>
+                <a href="#">CONTACT</a>
+               
+                <br>
+                <br>
+                <br>
+                <br>
+              </hgroup>
+        </nav>
+    </header>
+    <main>
+          <!-----accueil section -->
+        <ol type="I">
+            <section>
+               <li>
+                <h2> ACCUEIL </h2>
+          <h2>Créez votre premier site web :</h2>
+          <p> 
+          Apprenez les technologies les plus récentes pour devenir développeur web et créez des sites web avec HTML, CSS. Vous apprendrez aussi les bases de JavaScript pour rendre votre page interactive .
+        </p></li>
+            </section>
+          <!-----about section -->
+          <section>
+            <h2>A PROPOS </h2>
+            <table border="0">
+                <article>
+                   <tr>
+                    <td>
+                        <ul>
+                            <li>Introduction au développement web
+                                <p>Faire la différence entre “Internet” et “Web”.
+                                    Comprendre et résumer le fonctionnement du Web.
+                                    Définir les API et les protocoles.</p>
+                                </li>
+                                <li>HTML
+                                    <p>Définir HTML, la structuration d’une page web, les tags.
+                                        Créer des interfaces web avec les tags HTML
+                                        </p>
+                                </li>
+                                
+                                    <li>CSS
+                                        <p>Découvrir CSS.
+                                            Travailler avec les sélecteurs CSS.
+                                            Ajouter du design à votre site web avec CSS.
+                                            </p>
+                                    </li>
+                                    <li>CSS layout
+                                        <p>Définir le positionnement avec CSS.
+                                            Découvrir “Flexbox”, CSS, Grid, bootstrap.
+                                            Définir le “responsive design” (site web reactif)
+                                            </p>
+                                    </li>
+                                    <li>JavaScript
+                                        <p>Définir JavaScript.
+                                            Apprendre les bases de JavaScript.
+                                            Résoudre les problèmes avec JavaScript.
+                                            </p>
+                                            <li>DOM
+                                                <p>Introduire DOM.
+                                                    Manipuler les structures HTML.
+                                                    Créer un site web dynamique.</p>
+                                            </li>
+                                            <li>Git et GitHub
+                                                <p>Définir Git et GitHub.
+                                                    Découvrir quelques fonctionnalités de GitHub.
+                                                    Manipuler les projets sur GitHub.
+                                                    </p>
+                                            </li>
+
+                                    </li>
+                        </ul>
+                        
+                    </td>
+                    <td>
+                    <img src="tt.png" width="90%" height="90%">
+                      </td>
+                   </tr>
+                   </article>
+            </table>
+            
+        </section>
+
+
+
+        <section>
+            <h2>CONTACT</h2>
+          
+           <form name="formulaire">
+                <fieldset>
+                     <legend>Vos information</legend>
+                     <table>
+                         <tr>
+                             <td><label for="n">Nom de famille</label></td>
+                             <td><input type="text" name="n1" id="n"></td>
+                         </tr>
+                         <tr>
+                            <td><label for="p">Prenom</label></td>
+                            <td><input type="text" name="p1" id="p"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="D">Date de naissance</label></td>
+                            <td><input type="date" name="D1" id="D"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="N">Nom de famille</label></td>
+                            <td><input type="text" name="N1" id="N"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="homme">Homme</label> <input type="radio"  id="homme"></td>
+                           <td><label for="femme">femme</label> <input type="radio"  id="femme"></td>
+                            </tr>
+                            <tr>
+                            <td><label for="pseudo1">Pseudo name</label></td>
+                            <td><input type="text" name="pseudo" id="pseudo1"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="e">Entrer votre Email</label></td>
+                            <td><input type="email" name="email" id="e"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="ps">Mot de pass</label></td>
+                            <td><input type="password" name="passe1" id="ps"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fi">Ajouter votre photo</label></td>
+                            <td><input type="file" name="file1" id="fi" value="mac.jpeg"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <textarea  cols="40" rows="7">faut remplir le formulaire puis cliquer sur verifier vos informations avant de s inscrire</textarea></td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="1"><label for="ch">La verification est terminer</label></td>
+                           <td> <input type="checkbox" name="check" id="ch" onclick="terminer(this.form)"></td>
+        
+                        </tr>
+                        <tr>
+                            
+                            <td><input type="reset" name="reset1" id="R1" value="Effacer la saisie"></td>
+                            <td><input type="submit" name="sub"  value="inscription" disabled></td>
+                        </tr>
+                        <tr>
+                        
+                            <td colspan="2"><button name="affi" onclick="afficher()">Afficher vos donnees avant de valider</button></td>
+                        </tr>
+                     </table>
+                </fieldset>
+            
+        
+           </form>
+
+
+
+        </section>
+    </main>
+    <footer>
+        Mention légale – Condition d’utilisation-contact Copyright 2023 GOMYCODE HOLDING B.V.
+    </footer>
+</body>
+</html>
